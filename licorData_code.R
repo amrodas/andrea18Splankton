@@ -1,8 +1,9 @@
+
 library(Rmisc) # for summarySE
 library(tidyverse) # for readr, dplyr, ggplot...
 library(lubridate) # for dealing with dates and times (e.g., hms)
 
-setwd("andreas18ssequencing/")
+setwd("~/Desktop/Plankton/Planks/")
 
 # Load the file
 d <- read_csv("newTimes.csv")
